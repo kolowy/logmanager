@@ -1,6 +1,6 @@
 {
   "name": "@kolowy/logmanager",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "Great code begins by great logs",
   "main": "index.js",
   "scripts": {
