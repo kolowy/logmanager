@@ -3,12 +3,14 @@
 A simple NPM manager of log.
 
 ## Documentation 
+![Example](./example.png)
 
 ### Instalation
 
 ```
-npm i logmanager
+npm i @kolowy/logmanager
 ```
+
 ### Usage
 
 ```javascript

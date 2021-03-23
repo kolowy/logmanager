@@ -1,6 +1,6 @@
 {
-  "name": "@kolowy_npm/logmanager",
-  "version": "1.0.2",
+  "name": "@kolowy/logmanager",
+  "version": "1.0.5",
   "description": "Great code begins by great logs",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,13 @@
     "goodLog"
   ],
   "author": "Kolowy",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolowy/logmanager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolowy/logmanager/issues"
+  },
+  "homepage": "https://github.com/kolowy/logmanager#readme"
 }

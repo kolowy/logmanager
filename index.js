@@ -5,10 +5,9 @@ exports.logManager = function (message, col) {
     if(col.startsWith("Bri")){ const chars = col.split('Bri'); col = chars[1]; color = "\x1b[1m"; }
     if(col.startsWith("Dim")){ const chars = col.split('Dim'); col = chars[1];color = "\x1b[2m"; }
     if(col.startsWith("Under")){ const chars = col.split('Under'); col = chars[1]; color = "\x1b[4m"; }
-    if(col.startsWith("Blink")){ const chars = col.split('Blink'); col = chars[1]; color = "\x1b[2m"; }
-    if(col.startsWith("Rev")){ const chars = col.split('Rev'); col = chars[1]; color = "\x1b[2m"; }
-    if(col.startsWith("Hid")){ const chars = col.split('Hid'); col = chars[1]; color = "\x1b[2m"; }
-
+    if(col.startsWith("Blink")){ const chars = col.split('Blink'); col = chars[1]; color = "\x1b[5m"; }
+    if(col.startsWith("Rev")){ const chars = col.split('Rev'); col = chars[1]; color = "\x1b[7m"; }
+    if(col.startsWith("Hid")){ const chars = col.split('Hid'); col = chars[1]; color = "\x1b[8m"; }
     switch (col) {
         case "Black": {
             color += "\x1b[30m";
@@ -74,14 +73,11 @@ exports.logManager = function (message, col) {
             color += "\x1b[47m"; 
             break;
         }
-
-
         default: {
             console.log("Unvalid color : \"" + color + "\" message : " + message);
             return;
         }
     };
-
     console.log(color + "" + dateString + " " + message + "\x1b[0m");
 }
 

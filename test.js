@@ -1,5 +1,4 @@
 const { logManager } = require("./index.js");
-exports.test = function () {
     logManager("BLACK", 'Black')
     logManager("RED", 'Red')
     logManager("GREEN", 'Green')
@@ -23,5 +22,3 @@ exports.test = function () {
     logManager("BLACK", 'Blink-Black')
     logManager("RED", 'Rev-Red')
     logManager("MAGENTA", 'Hid-Magenta')
-
-}
