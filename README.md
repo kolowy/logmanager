@@ -14,14 +14,15 @@ npm i @kolowy/logmanager
 ### Usage
 
 ```javascript
-const logManager = require('logmanager');
+const { logManager }  = require('@kolowy/logmanager');
 logManager("message", "color")
+logManager("BLACK", 'Black')
 ```
 
 list of color : Black, Red, Green, Yellow, Blue, Magenta, Cyan, White
 Example : 
 ```javascript
-const logManager = require('logmanager');
+const { logManager }  = require('@kolowy/logmanager');
     logManager("BLACK", 'Black')
     logManager("RED", 'Red')
     logManager("GREEN", 'Green')
@@ -38,7 +39,7 @@ To have a Backgroud color : add `-` in front of the color
 
 Example :
 ```javascript
-const logManager = require('logmanager');
+const { logManager }  = require('@kolowy/logmanager');
     logManager("BLACK", '-Black')
     logManager("RED", '-Red')
     logManager("GREEN", '-Green')
@@ -54,7 +55,7 @@ const logManager = require('logmanager');
 
 Example :
 ```javascript
-const logManager = require('logmanager');
+const { logManager }  = require('@kolowy/logmanager');
     logManager("Bright", 'Bri')
     logManager("Dim", 'DimCyan')
     logManager("Underscore", 'UnderWhite')
@@ -66,7 +67,7 @@ const logManager = require('logmanager');
 ### combinaisons
 
 ```javascript
-const logManager = require('logmanager');
+const { logManager }  = require('@kolowy/logmanager');
     logManager("MAGENTA", 'BriMagenta')
     logManager("CYAN", 'DimCyan')
     logManager("WHITE", 'UnderWhite')
