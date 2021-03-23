@@ -1,0 +1,16 @@
+{
+  "name": "@kolowy_npm/logmanager",
+  "version": "1.0.2",
+  "description": "Great code begins by great logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "logManager",
+    "goodLog"
+  ],
+  "author": "Kolowy",
+  "license": "ISC"
+}
