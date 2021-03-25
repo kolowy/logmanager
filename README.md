@@ -1,9 +1,10 @@
 ## logmanager
 
 A simple NPM manager of log.
+![Example](./example.png)
+
 
 ## Documentation 
-![Example](./example.png)
 
 ### Instalation
 
