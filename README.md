@@ -1,6 +1,6 @@
 ## logmanager
 
-A simple NPM manager of log.
+A simple NPM manager of log.\n
 ![Example](./example.png)
 
 
